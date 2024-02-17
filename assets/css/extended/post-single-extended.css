@@ -1,0 +1,33 @@
+/* Post content link hover */
+
+.post-content a {
+    position: relative;
+    text-decoration: none;
+    color: var(--primary); /* Ensure link inherits text color */
+}
+
+.post-content a::before {
+    content: "";
+    position: absolute;
+    bottom: 0; /* Adjust this value to move the underline slightly below the text */
+    left: 0;
+    width: 100%;
+    height: 0; /* Set initial height to 1px */
+    background-color: var(--link-color); /* Change this to your desired background color */
+    transform: scaleY(1); /* Initially visible */
+    transform-origin: bottom;
+    transition: transform 0.1s ease-in-out; /* Add transition for scaleY change */
+    transition: height 0.1s ease-in-out;
+    z-index: -1;
+}
+
+.post-content a:hover::before {
+    height: 100%; /* Adjust height to cover the text */
+    transform: scaleY(1);
+}
+
+.post-content a:hover {
+    color: var(--theme); /* Ensure link inherits text color on hover */
+}
+
+/* end */

@@ -1,0 +1,7 @@
+article.post-entry {
+    transition: transform 0.05s ease-in-out;
+}
+  
+article.post-entry:hover {
+    transform: scale(1.025);
+}

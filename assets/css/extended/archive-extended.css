@@ -1,0 +1,11 @@
+.archive-entry {
+    transition: margin 0.05s ease-in-out;
+}
+  
+.archive-entry:hover {
+    margin-left: var(--smaller-gap);
+}
+
+.archive-month:not(:last-of-type) {
+    border-bottom: 1px solid var(--border);
+}

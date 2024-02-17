@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+:root {
+    --gap: 24px;
+    --smaller-gap: 10px;
+    --content-gap: 20px;
+    --nav-width: 1024px;
+    --main-width: 720px;
+    --header-height: 60px;
+    --footer-height: 60px;
+    --radius: 8px;
+    --theme: rgb(255, 255, 255);
+    --entry: rgb(255, 255, 255);
+    --primary: rgb(30, 30, 30);
+    --secondary: rgb(108, 108, 108);
+    --tertiary: rgb(214, 214, 214);
+    --content: rgb(31, 31, 31);
+    --code-block-bg: rgb(28, 29, 33);
+    --code-bg: rgb(245, 245, 245);
+    --link-color: rgb(223,78,100);
+    --border: rgb(238, 238, 238);
+}
+
+.dark {
+    --theme: rgb(37, 38, 39);
+    --entry: rgb(45, 46, 47);
+    --primary: rgb(230, 230, 230);
+    --secondary: rgb(185, 185, 185);
+    --tertiary: rgb(65, 66, 68);
+    --content: rgb(196, 196, 197);
+    --code-block-bg: rgb(48, 50, 52);
+    --code-bg: rgb(58, 60, 62);
+    --link-color: rgb(223,78,100);
+    --border: rgb(54, 55, 56);
+    --border-darker: rgb(49, 50, 51);
+}
+
+.list {
+    background: var(--code-bg);
+}
+
+.dark.list {
+    background: var(--theme);
+}
