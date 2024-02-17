@@ -36,7 +36,6 @@ menu:
       weight: 5
 
 params:
-  
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
   description: "Harsh Valaki's personal website - home to blog posts, projects and more."
   # author: Harsh Valaki
@@ -59,6 +58,13 @@ params:
   disableScrollToTop: false
   # comments: false
   # images: ["images/papermod-cover.png"]
+
+  assets:
+    favicon: "/favicon.ico"
+    favicon16x16: "/favicon-16x16.png"
+    favicon32x32: "/favicon-32x32.png"
+    apple_touch_icon: "/apple-touch-icon.png"
+    # safari_pinned_tab: "/safari-pinned-tab.svg"
 
   mainSections:
     - posts
