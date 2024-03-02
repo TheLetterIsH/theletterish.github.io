@@ -23,5 +23,5 @@ Alternatively you can also send me a mail at `harshvalaki07[at]gmail[dot]com`.
 
 ### About this site
 
-This site is powered 🗲 by [Hugo](https://gohugo.io/) and [PaperMod](https://github.com/adityatelange/hugo-PaperMod/).\
+This site is powered ⚡ by [Hugo](https://gohugo.io/) and [PaperMod](https://github.com/adityatelange/hugo-PaperMod/).\
 The entire source code of this site is available on my GitHub [here](https://github.com/TheLetterIsH/theletterish.github.io/).
