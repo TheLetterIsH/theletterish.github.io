@@ -15,7 +15,7 @@ cover:
 showtoc: false
 searchHidden: false
 weight: 
-draft: true
+draft: false
 ---
 
 ## Sometimes...
