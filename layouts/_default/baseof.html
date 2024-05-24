@@ -6,6 +6,11 @@
 <html lang="{{ site.Language }}" dir="{{ .Language.LanguageDirection | default "auto" }}">
 
 <head>
+    <!-- Google Analytics -->
+    {{ if .Site.Params.GoogleAnalyticsID }}
+    {{ partial "analytics_gtag.html" . }}
+    {{ end }}
+
     {{- partial "head.html" . }}
 </head>
 

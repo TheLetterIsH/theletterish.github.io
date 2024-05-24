@@ -4,6 +4,7 @@ title: TheLetterIsH
 theme: ["PaperMod"]
 paginate: 5
 
+googleAnalyticsID: "G-WD4B0Z9LMX"
 enableInlineShortcodes: true
 enableRobotsTXT: true
 buildDrafts: false
