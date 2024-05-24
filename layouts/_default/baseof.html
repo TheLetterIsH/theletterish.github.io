@@ -8,7 +8,7 @@
 <head>
     <!-- Google Analytics -->
     {{ if and (hugo.IsProduction) (.Site.Params.googleAnalyticsID) }}
-    {{ partial "analytics-gtag.html" . }}
+    {{ partial "analytics_gtag.html" . }}
     {{ end }}
 
     {{- partial "head.html" . }}
