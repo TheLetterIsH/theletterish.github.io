@@ -36,20 +36,6 @@ listDateFormat = '2006 Jan 2'
 # Breadcrumbs
 breadcrumbs = false
 
-quotes = [
-    "dreams are meant to be chased",
-    "live and learn",
-    "time heals everything",
-    "loving the days gone by",
-    "make it happen",
-    "be wild for a while",
-    "things will work out",
-    "trust in the process",
-    "no rain, no flowers",
-    "progress not perfection",
-    "start now",
-]
-
 # Social icons
 [[params.social]]
 name = "x"
