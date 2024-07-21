@@ -1,0 +1,86 @@
+baseURL = 'https://theletterish.github.io/'
+languageCode = 'en-us'
+title = "Harsh's Haven"
+theme = 'typo'
+
+[taxonomies]
+tag = 'tags'
+category = 'categories'
+series = 'series'
+
+[params]
+# Meta description
+description = "Everyday thoughts and game dev learnings."
+
+# Appearance settings
+theme = 'auto'
+colorPalette = 'haven'
+hideHeader = false
+
+# Intro on main page, content is markdown
+homeIntroTitle = 'Hello :)'
+homeIntroContent = """
+I'm **Harsh Valaki** aka **TheLetterIsH**.\n
+I like making games and reading and drawing.
+"""
+
+# Collection to display on home
+homeCollectionTitle = 'Latest Posts'
+homeCollection = 'posts'
+
+# Lists parameters
+paginationSize = 50
+listSummaries = false
+listDateFormat = '2006 Jan 2'
+
+# Breadcrumbs
+breadcrumbs = false
+
+quotes = [
+    "dreams are meant to be chased",
+    "live and learn",
+    "time heals everything",
+    "loving the days gone by",
+    "make it happen",
+    "be wild for a while",
+    "things will work out",
+    "trust in the process",
+    "no rain, no flowers",
+    "progress not perfection",
+    "start now",
+]
+
+# Social icons
+[[params.social]]
+name = "x"
+url = "https://x.com/@_TheLetterIsH"
+
+[[params.social]]
+name = "linkedin"
+url = "https://www.linkedin.com/in/HarshValaki/"
+
+[[params.social]]
+name = "github"
+url = "https://github.com/TheLetterIsH"
+
+# [[params.social]]
+# name = "youtube"
+# url = "https://youtube.com/@TheLetterIsH"
+
+# Main menu pages
+[[params.menu]]
+name = "Home"
+url = "/"
+
+[[params.menu]]
+name = "Posts"
+url = "/posts"
+
+[[params.menu]]
+name = "About"
+url = "/about"
+
+# Syntax highligth on code blocks
+[markup]
+[markup.highlight]
+style = 'onedark'

@@ -1,0 +1,19 @@
+:root {
+    --content-primary: rgb(42, 42, 42);
+    --content-secondary: rgb(100, 100, 100);
+    --background: rgb(224, 224, 224);
+    --code-background: rgb(200, 200, 200);
+    --code-border: rgb(172, 172, 172);
+    --accent: #7ebed9;
+}
+
+.dark {
+    --content-primary: rgb(216, 216, 216);
+    --content-secondary: rgb(168, 168, 168);
+    --background: rgb(42, 42, 42);
+    --code-background: rgb(36, 36, 36);
+    --table-background: rgb(48, 48, 48);
+    --table-border: rgb(42, 42, 42);
+    --horizontal-rule: rgb(60, 60, 60);
+    --accent: #6cadd9;
+}

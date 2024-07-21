@@ -1,0 +1,7 @@
+{{- $quotes := .Site.Params.quotes -}}
+{{- if gt (len $quotes) 0 -}}
+  {{- $randomQuote := index (shuffle $quotes) 0 -}}
+  <p class="quote">~ {{ $randomQuote }}</p>
+{{- else -}}
+  <p class="quote">~ loving the days gone by</p>
+{{- end -}}

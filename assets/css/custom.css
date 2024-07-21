@@ -1,0 +1,145 @@
+/* body */
+body {
+    font-family: "Inter", sans-serif;
+}
+
+::selection {
+    color: var(--background);
+    background: var(--accent);
+}
+
+/* header + header title */
+.header p {
+    font-family: "Inter", sans-serif;
+}
+
+.header-title {
+    font-size: 1.8em;
+}
+
+.header a {
+    text-decoration: none;
+}
+
+.header-title a:hover {
+    color: var(--content-primary);
+    background-color: transparent;
+}
+
+/* title container */
+.title-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.quote {
+    font-size: small;
+    margin: 0px !important;
+}
+
+.quote:hover {
+    color: var(--background);
+    background-color: var(--content-primary);
+}
+
+/* intro */
+.intro h2 {
+    margin-bottom: var(--medium-margin);
+}
+
+.intro p {
+    margin: 0;
+}
+
+/* anchor */
+a {
+    text-decoration-color: var(--accent);
+    text-decoration-thickness: 2px;
+    text-underline-offset: 0.2ex;
+}
+
+a:hover {
+    color: var(--background);
+    background-color: var(--accent);
+}
+
+/* icons */
+.social-icons {
+    margin-top: var(--medium-margin);
+    margin-bottom: var(--social-icons-bottom-margin);
+}
+
+.social-icons a:hover {
+    background-color: transparent;
+}
+
+.social-icon {
+    color: var(--content-primary);
+}
+
+.social-icon:hover {
+    color: var(--accent);
+}
+
+/* footer */
+footer {
+    user-select: none;
+}
+
+footer a {
+    font-family: "Inter", sans-serif;
+    text-decoration: none;
+}
+
+footer span:hover {
+    color: var(--accent);
+}
+
+/* post line */
+.post-line {
+    align-items: center;
+}
+
+.line-date {
+    font-size: small;
+    font-family: "JetBrains Mono", monospace;
+    text-align: initial;
+    color: var(--content-secondary);
+}
+
+/* single content */
+.single-content {
+    margin-bottom: 4rem;
+}
+
+/* hr */
+hr {
+    background-color: var(--horizontal-rule);
+}
+
+/* back-to-top */
+.back-to-top {
+    font-family: "Inter", sans-serif;
+}
+
+/* monospace */
+.monospace {
+    font-family: "JetBrains Mono", monospace;
+}
+
+/* code blocks */
+code {
+    font-family: "JetBrains Mono", monospace;
+}
+
+/* table */
+th,
+td {
+  border: 2px solid var(--table-border);
+}
+
+td {
+    background-color: var(--table-background);
+} 
