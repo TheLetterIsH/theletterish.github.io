@@ -22,4 +22,4 @@ Want to say hello? DM me on [Twitter/X](https://x.com/_TheLetterIsH/) or connect
 
 ### About this site
 
-This site is powered 🗲 by [Hugo](https://gohugo.io/) and [tomfran/typo](https://github.com/tomfran/typo). The entire source code of this site is available on my GitHub [here](https://github.com/TheLetterIsH/theletterish.github.io/).
+This site is powered ⚡ by [Hugo](https://gohugo.io/) and [tomfran/typo](https://github.com/tomfran/typo). The entire source code of this site is available on my GitHub [here](https://github.com/TheLetterIsH/theletterish.github.io/).
