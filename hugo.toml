@@ -70,3 +70,11 @@ url = "/about"
 [markup]
 [markup.highlight]
 style = 'onedark'
+
+[outputs]
+home = ["HTML", "RSS"]
+section = ["HTML", "RSS"]
+
+[outputFormats]
+[outputFormats.RSS]
+baseName = "feed"
