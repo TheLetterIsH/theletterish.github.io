@@ -1,10 +1,9 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width">
 
-<!-- RSS. Only ever link to /feed.xml. Render home, section, and pages. -->
-{{- with .OutputFormats.Get "rss" -}}
-    {{ printf `<link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type $.Site.RSSLink $.Site.Title | safeHTML }}
-{{- end }}
+{{ with .OutputFormats.Get "rss" -}}
+  {{ printf `<link rel=%q type=%q href=%q title=%q>` .Rel .MediaType.Type .Permalink site.Title | safeHTML }}
+{{ end }}
 
 {{- if .IsHome -}}
 <meta name="description" content="{{ site.Params.Description }}" />
