@@ -6,7 +6,7 @@ hideBackToTop: true
 hidePagination: true
 ---
 
-> Last updated on 21st July, 2024.
+> Last updated on 18th August, 2024.
 
 ### Life
 
@@ -14,7 +14,7 @@ I'm in my pre-final year of college. The last three years have gone by quickly, 
 
 ### Work
 
-I'm unemployed. But I make games.
+I'm interning at [Junglee Games](https://www.jungleegames.com/#). But I also make games in my free time.
 
 I'm actually working on a new game right now -- [Lucky Loadout](https://github.com/TheLetterIsH/Lucky-Loadout)!
 
@@ -24,7 +24,6 @@ I use the [Godot](https://godotengine.org/) game engine as my primary game makin
 
 I love reading novels and manga. I'm currently reading:
 
-- [Sakamoto Days](https://www.viz.com/shonenjump/chapters/sakamoto-days) by Yuto Suzuki.
 - [The Wandering Inn](https://wanderinginn.com/) by pirateaba.
 
 ---
