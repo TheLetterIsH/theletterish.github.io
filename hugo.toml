@@ -62,6 +62,14 @@ url = "/"
 name = "Posts"
 url = "/posts"
 
+# [[params.menu]]
+# name = "Musings"
+# url = "/musings"
+
+# [[params.menu]]
+# name = "Projects"
+# url = "/projects"
+
 [[params.menu]]
 name = "About"
 url = "/about"

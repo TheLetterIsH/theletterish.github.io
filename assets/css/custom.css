@@ -44,6 +44,10 @@ body {
     background-color: var(--content-primary);
 }
 
+.menu-items {
+    flex-wrap: wrap;
+}
+
 /* intro */
 .intro h2 {
     margin-bottom: var(--medium-margin);
